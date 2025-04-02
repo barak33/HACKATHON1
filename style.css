@@ -1,0 +1,107 @@
+html{
+    scroll-behavior: smooth;
+}
+body{
+    background-color: rgba(216, 215, 215, 0.945);
+    font-family: "poppins", sans-serif;
+    margin: 0;
+    padding: 0;
+    font-size: 1.2em; 
+    line-height: 1.6;
+}
+body a{
+    text-decoration: none;
+}
+h1{
+    color: rgb(145, 255, 0);
+    font-size: 2em; 
+    text-align: center;
+    margin: 20px 0;
+    font-family: Arial, sans-serif;
+    font-weight: bold;
+    text-transform: uppercase;
+    text-decoration: underline;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    letter-spacing: 2px;
+}
+h2{
+    color: rgb(145, 255, 0);
+    font-size: 2em;
+}
+
+#about {
+    color: #000;
+    text-align: center;
+    margin: 20px 0;
+    font-family:"poppins", sans-serif;
+    text-decoration: none;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+
+}
+#about-text h2{
+    color: #000;
+    font-size: 2em; 
+    text-align: center;
+    margin: 20px 0;
+    font-family: "poppins", sans-serif;
+    font-weight: bold;
+    text-transform: uppercase;
+    text-decoration: underline;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    letter-spacing: 2px;
+}
+#about-text p{
+    color: #000;
+    font-size: 1.2em;
+    line-height: 1.6;
+    text-align: center;
+    margin: 20px 0;
+    font-family: "poppins", sans-serif;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    letter-spacing: 2px;
+}
+
+nav {
+    align-items: right;
+    text-align: right;
+    display: inline-block;
+    padding-left: 500px;
+    text-decoration: none;
+}
+nav li{
+    display: inline-block;
+    margin: 0 10px;
+    text-decoration: none;
+}
+nav a {
+    color: rgb(0, 0, 255);
+    text-decoration: none;
+    font-size: 1.2em; 
+    font-family: "poppins", sans-serif;
+    font-weight: bold;
+    text-transform: uppercase;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    letter-spacing: 2px;
+}
+#about .about-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    margin: 20px 0;
+}
+
+#about .about-image img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+    box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.3);
+    width: 300px; /* Adjust as needed */
+}
+
+#about .about-text {
+    max-width: 600px;
+    font-size: 1.2em;
+    line-height: 1.6;
+    text-align: left;
+}

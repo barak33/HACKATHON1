@@ -1,32 +1,38 @@
 html{
     scroll-behavior: smooth;
 }
+
+main {
+    padding: 20px;
+    font-family: 'Roboto', sans-serif;
+    background-color: #e6e1e1;
+}
 body{
+    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
     background-color: rgba(216, 215, 215, 0.945);
-    font-family: "poppins", sans-serif;
-    margin: 0;
-    padding: 0;
-    font-size: 1.2em; 
-    line-height: 1.6;
 }
 body a{
     text-decoration: none;
 }
-h1{
-    color: rgb(145, 255, 0);
-    font-size: 2em; 
+
+footer {
+    background-color: #6d6666;
+    color: white;
     text-align: center;
-    margin: 20px 0;
-    font-family: Arial, sans-serif;
-    font-weight: bold;
-    text-transform: uppercase;
-    text-decoration: underline;
-    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
-    letter-spacing: 2px;
+    padding: 15px;
+    font-size: 15px;
+    font-family: 'Roboto', sans-serif;
+}
+h1{
+    color: white;
 }
 h2{
-    color: rgb(145, 255, 0);
-    font-size: 2em;
+    color: black;
 }
 
 #about {
@@ -62,26 +68,17 @@ h2{
 }
 
 nav {
-    align-items: right;
-    text-align: right;
-    display: inline-block;
-    padding-left: 500px;
+    background-color: #6d6666;
     text-decoration: none;
 }
 nav li{
     display: inline-block;
-    margin: 0 10px;
+    margin: 0 15px;
     text-decoration: none;
 }
 nav a {
-    color: rgb(0, 0, 255);
-    text-decoration: none;
-    font-size: 1.2em; 
-    font-family: "poppins", sans-serif;
-    font-weight: bold;
-    text-transform: uppercase;
-    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
-    letter-spacing: 2px;
+    color: white;
+    text-decoration: none; 
 }
 #about .about-container {
     display: flex;
@@ -104,4 +101,15 @@ nav a {
     font-size: 1.2em;
     line-height: 1.6;
     text-align: left;
+}
+
+footer img{
+    width: 50px;
+    height: 50px;
+}
+
+section #projects {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
 }
